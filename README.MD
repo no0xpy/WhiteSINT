@@ -69,4 +69,4 @@ Every tool included is designed to be used only on targets you own or have expli
 
 ---
 
-<p align="center">Made with 🤍 by the Nox</p>
+<p align="center">Made with 🤍 by Nox</p>
