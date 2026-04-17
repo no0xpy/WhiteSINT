@@ -1,0 +1,8 @@
+fade
+colorama
+requests
+python-whois
+phonenumbers
+scanless
+faker
+webbrowser
