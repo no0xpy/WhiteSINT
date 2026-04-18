@@ -67,6 +67,12 @@ python menu.py
 WhiteSINT was built on three pillars: **legality**, **transparency**, and **ethics**.
 Every tool included is designed to be used only on targets you own or have explicit permission to investigate.
 
+## 🗃️ Team
+
+> *"The tool is made by Nox, 0% IA, 0% others devs."*
+
+The website is made with Claude AI.
+
 ---
 
 <p align="center">Made with 🤍 by Nox</p>
