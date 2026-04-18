@@ -69,7 +69,7 @@ Every tool included is designed to be used only on targets you own or have expli
 
 ## 🗃️ Team
 
-> *"The tool is made by Nox, 0% IA, 0% others devs."*
+The tool is made by Nox, 0% IA, 0% others devs.
 
 The website is made with Claude AI.
 
