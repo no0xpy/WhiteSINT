@@ -71,7 +71,6 @@ Every tool included is designed to be used only on targets you own or have expli
 
 The tool is made by Nox, 0% IA, 0% others devs.
 
-The website (https://whitesint.free.nf/) is made with Claude AI.
 
 ---
 
