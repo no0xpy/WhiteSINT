@@ -23,6 +23,7 @@ The authors are not responsible for any misuse of this software.
 - Identity Generator
 - Password Generator
 - Multiple Searcher
+- Roblox Lookup (ID)
 - Discord Webhook Lookup
 - Discord Webhook Sender
 - Discord Webhook Remover

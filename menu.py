@@ -36,7 +36,7 @@ banner = r"""
 print(fade.water(banner))
 print(Fore.RED + """[!] This tool is intended for legal, moral and ethical use. The developers are not responsible for how you use it.
 """)
-print(Fore.YELLOW + "1 > IP Lookup     2 > WHOIS Lookup     3 > Phone Lookup     4 > Ports Scanner     5 > Identity Generator     6 > Password Generator     7 > Multiple Searcher     8 > Discord Tools")
+print(Fore.YELLOW + f"\n1 > IP Lookup     2 > WHOIS Lookup     3 > Phone Lookup     4 > Ports Scanner     5 > Identity Generator     \n6 > Password Generator     7 > Multiple Searcher     8 > Discord Tools     9 > Roblox Lookup (ID)")
 choice = input(Fore.MAGENTA + "What do you want to do ? ")
 
 if choice == "1":
@@ -63,6 +63,9 @@ elif choice == "7":
 elif choice == "8":
  os.system(clearcmd)
  subprocess.run([sys.executable, f'{path}/tools/Discord/discord-menu.py'])
+elif choice == "9":
+ os.system(clearcmd)
+ subprocess.run([sys.executable, f'{path}/tools/roblox-lookup.py'])
 else:
  os.system(clearcmd)
  subprocess.run([sys.executable, f'{path}/menu.py'])
