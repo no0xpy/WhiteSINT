@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import platform
 import fade
 from colorama import Fore
