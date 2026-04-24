@@ -29,6 +29,7 @@ The authors are not responsible for any misuse of this software.
 - Discord Webhook Lookup
 - Discord Webhook Sender
 - Discord Webhook Remover
+- Breach Lookup (Email)
 
 ---
 
