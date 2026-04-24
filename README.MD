@@ -6,6 +6,7 @@ WhiteSINT is a Python-based OSINT toolkit designed for cybersecurity researchers
 
 <br>
 <img src="https://github.com/no0xpy/WhiteSINT/blob/main/screens/screen.png">
+<img src="https://github.com/no0xpy/WhiteSINT/blob/main/screens/discord.png">
 ---
 
 ## ⚠️ Disclaimer
@@ -71,4 +72,4 @@ Every tool included is designed to be used only on targets you own or have expli
 
 ---
 
-<p align="center">Made with 🤍 by Nox</p>
+<p align="center">Made with 🤍 by Nox, contact me with Nerimity (in bio)</p>
