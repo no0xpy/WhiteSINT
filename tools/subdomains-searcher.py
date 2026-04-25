@@ -42,9 +42,9 @@ try:
  
  def brute(subdomain, ip, status):
     if status == "valid":
-        print(f"Found Subdomain: {subdomain} IP: {ip}")
+        print(Fore.GREEN + f"[+] Found: {subdomain} IP: {ip}")
     else:
-        print(f"Not Found: {subdomain}")
+        print(Fore.RED + f"[-] Not Found: {subdomain}")
  results = subbrute.scan(target, wordlist, callback=brute)
  print(Fore.GREEN + results)
 except Exception as e:

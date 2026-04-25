@@ -6,7 +6,6 @@ WhiteSINT is a Python-based OSINT toolkit designed for cybersecurity researchers
 
 <br>
 <img src="https://github.com/no0xpy/WhiteSINT/blob/main/screens/screen.png">
-<img src="https://github.com/no0xpy/WhiteSINT/blob/main/screens/discord.png">
 ---
 
 ## ⚠️ Disclaimer
@@ -30,6 +29,7 @@ The authors are not responsible for any misuse of this software.
 - Discord Webhook Sender
 - Discord Webhook Remover
 - Breach Lookup (Email)
+- Subdomains Searcher
 
 ---
 
