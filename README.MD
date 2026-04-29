@@ -4,8 +4,6 @@
 
 WhiteSINT is a Python-based OSINT toolkit designed for cybersecurity researchers, ethical hackers, and curious minds who believe that intelligence gathering must always stay legal, respectful, and responsible.
 
-<br>
-<img src="https://github.com/no0xpy/WhiteSINT/blob/main/screens/screen.png">
 ---
 
 ## ⚠️ Disclaimer
