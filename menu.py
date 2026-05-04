@@ -94,6 +94,9 @@ elif choice == "13":
 elif choice == "14":
  os.system(clearcmd)
  subprocess.run([sys.executable, f'{path}/tools/user-tracker.py'])
+elif choice == "15":
+ os.system(clearcmd)
+ subprocess.run([sys.executable, f'{path}/tools/ip-pinger.py'])
 else:
  os.system(clearcmd)
  subprocess.run([sys.executable, f'{path}/menu.py'])
