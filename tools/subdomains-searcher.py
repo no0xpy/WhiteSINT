@@ -39,7 +39,6 @@ print(Fore.RED + """[!] This tool is intended for legal, moral and ethical use. 
 try:
  target = input(Fore.MAGENTA + "Domain > ")
  wordlist = subbrute.load(f"{path}/../wordlists/subdomains-list.txt")
- 
  def brute(subdomain, ip, status):
     if status == "valid":
         print(Fore.GREEN + f"[+] Found: {subdomain} IP: {ip}")
@@ -48,8 +47,7 @@ try:
  results = subbrute.scan(target, wordlist, callback=brute)
  print(Fore.GREEN + results)
 except Exception as e:
- print("[I] Error:", e)
-
+    print(Fore.RED + "[I] Error:", e)
 choice = input(Fore.YELLOW + "[?] Do you want to retry ? (Y/n) ")
 if choice == "y" or choice =="Y":
  os.system(clearcmd)

@@ -2,7 +2,10 @@
 
 > **Ethical, legal, and open-source OSINT multitool — built with transparency in mind.**
 
-WhiteSINT is a Python-based OSINT toolkit designed for cybersecurity researchers, ethical hackers, and curious minds who believe that intelligence gathering must always stay legal, respectful, and responsible.
+WhiteSINT is a Python-based toolkit designed for cybersecurity researchers, ethical hackers, and curious minds who believe that intelligence gathering must always stay legal, respectful, and responsible.
+
+<br>
+<img src="/screens/preview.png">
 
 ---
 
@@ -23,11 +26,15 @@ The authors are not responsible for any misuse of this software.
 - Password Generator
 - Multiple Searcher
 - Roblox Lookup (ID)
-- Discord Webhook Lookup
-- Discord Webhook Sender
-- Discord Webhook Remover
+- Discord Webhook Lookup (URL)
+- Discord Webhook Sender (URL)
+- Discord Webhook Remover (URL)
+- Discord Server Lookup (URL)
 - Breach Lookup (Email)
 - Subdomains Searcher
+- Py To Exe (Windows) with Pyinstaller
+- Email Tracker with Holehe and User Scanner
+- User Tracker with User Scanner
 
 ---
 

@@ -5,7 +5,7 @@ from colorama import Fore
 import os
 import sys
 import subprocess
-
+from pystyle import System
 
 path = os.path.dirname(os.path.abspath(__file__))
 if platform.system() == "Windows":
@@ -13,6 +13,7 @@ if platform.system() == "Windows":
 else:
     clearcmd = "clear"
 
+System.Title("WhiteSINT")
 banner = r"""
 ██╗    ██╗██╗  ██╗██╗████████╗███████╗███████╗██╗███╗   ██╗████████╗                                                
 ██║    ██║██║  ██║██║╚══██╔══╝██╔════╝██╔════╝██║████╗  ██║╚══██╔══╝
@@ -38,16 +39,16 @@ print(fade.water(banner))
 print(Fore.RED + """[!] This tool is intended for legal, moral and ethical use. The developers are not responsible for how you use it.
 """)
 print(Fore.YELLOW + """
-1 > IP Lookup\t 11 > Subdomains Searcher  
-2 > WHOIS Lookup\t       
-3 > Phone Lookup\t     
-4 > Ports Scanner\t     
-5 > Identity Generator\t     
-6 > Password Generator\t     
-7 > Multiple Searcher\t     
-8 > Discord Tools\t     
-9 > Roblox Lookup (ID)\t   
-10 > Breach Lookup (Email)\t
+1 > IP Lookup              11 > Subdomains Searcher  
+2 > WHOIS Lookup           12 > Py To Exe (Windows Only)     
+3 > Phone Lookup           13 > Email Tracker
+4 > Ports Scanner          14 > User Tracker
+5 > Identity Generator     15 > IP Pinger
+6 > Password Generator    
+7 > Multiple Searcher 
+8 > Discord Tools   
+9 > Roblox Lookup (ID)
+10 > Breach Lookup (Email)  
 """)
 choice = input(Fore.MAGENTA + "What do you want to do ? ")
 
@@ -84,6 +85,15 @@ elif choice == "10":
 elif choice == "11":
  os.system(clearcmd)
  subprocess.run([sys.executable, f'{path}/tools/subdomains-searcher.py'])
+elif choice == "12":
+ os.system(clearcmd)
+ subprocess.run([sys.executable, f'{path}/tools/py-to-exe.py'])
+elif choice == "13":
+ os.system(clearcmd)
+ subprocess.run([sys.executable, f'{path}/tools/email-tracker.py'])
+elif choice == "14":
+ os.system(clearcmd)
+ subprocess.run([sys.executable, f'{path}/tools/user-tracker.py'])
 else:
  os.system(clearcmd)
  subprocess.run([sys.executable, f'{path}/menu.py'])

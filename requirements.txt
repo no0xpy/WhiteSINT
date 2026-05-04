@@ -6,3 +6,6 @@ phonenumbers
 scanless
 faker
 subbrute
+pystyle
+holehe
+user-scanner
