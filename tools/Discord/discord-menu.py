@@ -37,7 +37,7 @@ print(fade.water(banner))
 print(Fore.RED + """[!] This tool is intended for legal, moral and ethical use. The developers are not responsible for how you use it.
 """)
 print(Fore.YELLOW + """
-1 > Discord Lookup 
+1 > Webhook Lookup 
 2 > Webhook Sender          
 3 > Webhook Remover          
 4 > Server Lookup        
